@@ -1,4 +1,6 @@
-module.exports = () => {
-  return 0;
-};
+'use strict';
 
+module.exports = () => {
+
+    return 0;
+};

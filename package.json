@@ -1,15 +1,18 @@
 {
-  "name": "gdcr2016",
+  "name": "@dominykas/gdcr2016",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "eslint . && mocha"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "code": "^4.0.0",
+    "eslint": "^3.8.1",
+    "eslint-config-hapi": "^10.0.0",
+    "eslint-plugin-hapi": "^4.0.0",
     "mocha": "^3.1.2"
   }
 }
